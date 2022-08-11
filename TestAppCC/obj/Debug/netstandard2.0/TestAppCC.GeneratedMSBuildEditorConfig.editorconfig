@@ -1,0 +1,4 @@
+is_global = true
+build_property.RefitInternalNamespace = TestAppCC
+build_property.RootNamespace = TestAppCC
+build_property.ProjectDir = /Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/

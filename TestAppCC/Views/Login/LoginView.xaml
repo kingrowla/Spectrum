@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="TestAppCC.Views.Login.LoginView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:localControls="clr-namespace:TestAppCC.Controls;assembly=TestAppCC"
+    xmlns:viewmodels="clr-namespace:TestAppCC.ViewModels;assembly=TestAppCC">
+    <ContentView.Content>
+        <Grid
+            ColumnDefinitions="2*,6*,2*"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <ActivityIndicator
+                HeightRequest="40"
+                HorizontalOptions="CenterAndExpand"
+                IsRunning="{Binding IsBusy}"
+                IsVisible="{Binding IsBusy}"
+                VerticalOptions="CenterAndExpand"
+                Color="White" />
+            <StackLayout
+                Grid.Column="1"
+                Margin="25,50"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill">
+                <Label
+                    FontSize="Small"
+                    HorizontalOptions="Start"
+                    HorizontalTextAlignment="Center"
+                    Text="Username"
+                    TextColor="#575757" />
+                <localControls:CustomEntry AutomationId="tbUserName"
+                                               BackgroundColor="{DynamicResource Background}"
+                                               Keyboard="Email"
+                                               Text="{Binding LoginName, Source={RelativeSource AncestorType={x:Type viewmodels:MainPageViewModel}}}" />
+                <Label
+                    FontSize="Small"
+                    HorizontalOptions="Start"
+                    HorizontalTextAlignment="Center"
+                    Text="password"
+                    TextColor="#575757" />
+                 <localControls:CustomEntry AutomationId="tbPassword"
+                                                   BackgroundColor="{StaticResource Background}"
+                                                   Text="{Binding Password, Source={RelativeSource AncestorType={x:Type viewmodels:MainPageViewModel}}}">
+                            <localControls:CustomEntry.Triggers>
+                                <DataTrigger Binding="{Binding Source={x:Reference ShowHideButton}, Path=Text}"
+                                             TargetType="localControls:CustomEntry"
+                                             Value="show">
+                                    <Setter Property="IsPassword" Value="True" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Source={x:Reference ShowHideButton}, Path=Text}"
+                                             TargetType="localControls:CustomEntry"
+                                             Value="hide">
+                                    <Setter Property="IsPassword" Value="False" />
+                                </DataTrigger>
+                            </localControls:CustomEntry.Triggers>
+                        </localControls:CustomEntry>
+                <Label
+                    Margin="0,15"
+                    FontSize="Micro"
+                    HorizontalOptions="Center"
+                    Text="forgot username or password?"
+                    TextColor="DodgerBlue" />
+                <Label x:Name="ShowHideButton"
+                               Margin="0,0,8,0"
+                               AutomationId="lShowHideButton"
+                               HorizontalOptions="End"
+                               Style="{StaticResource H2_Alt}"
+                               Text="{Binding ShowPasswordButtonText, Source={RelativeSource AncestorType={x:Type viewmodels:MainPageViewModel}}}"
+                               TextColor="{StaticResource Primary}"
+                               VerticalOptions="Center"
+                               VerticalTextAlignment="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding ShowPasswordCommand ,Source={RelativeSource AncestorType={x:Type viewmodels:MainPageViewModel}}}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+            </StackLayout>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

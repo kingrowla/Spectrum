@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication
+    x:Class="TestAppCC.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:TestAppCC.Converters"
+    xmlns:prism="http://prismlibrary.com">
+    <prism:PrismApplication.Resources>
+        <ResourceDictionary>
+            <Color x:Key="DefaultTextColor">#444</Color>
+            <Color x:Key="PendingTextColor">#EF7C00</Color>
+            <Color x:Key="AppBackgroundColor">#F8F8F8</Color>
+            <Color x:Key="LightRadioButtonColor">#F3F2F1</Color>
+            <Color x:Key="DarkRadioButtonColor">#9B9A99</Color>
+            <Color x:Key="DarkGray">#FF2A2A2A</Color>
+            <Color x:Key="DarkBlack">#FF414140</Color>
+            <Color x:Key="MainGray">#FF414141</Color>
+            <Color x:Key="SecondaryLightGray">#FF373737</Color>
+            <Color x:Key="Background">#F8F8F8</Color>
+            <Color x:Key="Primary">#FF96BA57</Color>
+            <Style x:Key="TotalStyle" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+            <Style x:Key="DefaultButtonStyle" TargetType="Button">
+                <Setter Property="WidthRequest" Value="270" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="#042f66" />
+            </Style>
+             <Style x:Key="H2"
+                   BasedOn="{StaticResource LabelBase}"
+                   TargetType="Label">
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+            <Style x:Key="H2_Alt"
+                   BasedOn="{StaticResource LabelBase}"
+                   TargetType="Label">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="TextColor" Value="{StaticResource DarkGray}" />
+            </Style>
+            <Style x:Key="LabelBase" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource SecondaryLightGray}" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+            <!--  Converters  -->
+            <converters:PendingStatusColorConverter x:Key="PendingStatusColorConverter" />
+        </ResourceDictionary>
+    </prism:PrismApplication.Resources>
+</prism:PrismApplication>

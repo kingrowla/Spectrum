@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.97" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Prism.Forms" />
+    <None Remove="Views\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Login\" />
+    <None Remove="Prism.DryIoc.Forms" />
+    <None Remove="ViewModels\Orders\" />
+    <None Remove="ViewModels\Login\" />
+    <None Remove="Views\Orders\" />
+    <None Remove="Models\" />
+    <None Remove="Converters\" />
+    <None Remove="Effects\" />
+    <None Remove="Xamarin.CommunityToolkit" />
+    <None Remove="Xamarin.Forms" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="ViewModels\Employees\" />
+    <Folder Include="ViewModels\Login\" />
+    <Folder Include="Models\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Effects\" />
+    <Folder Include="Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestAppCC.API\TestAppCC.API.csproj" />
+  </ItemGroup>
+</Project>
