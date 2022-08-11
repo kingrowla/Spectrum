@@ -1,1 +1,1 @@
-# TestCC
+# Sample test for Spectrum
