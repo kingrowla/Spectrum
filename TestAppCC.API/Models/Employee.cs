@@ -11,7 +11,7 @@ namespace TestAppCC.API.Models
         [JsonProperty("first_name")]
         public string FirstName { get; set; }
 
-        [JsonProperty("first_name")]
+        [JsonProperty("last_name")]
         public string LastName { get; set; }
 
         [JsonProperty("email")]

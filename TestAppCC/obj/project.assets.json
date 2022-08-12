@@ -1318,11 +1318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj",
+      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj",
       "projectName": "TestAppCC",
-      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj",
+      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj",
       "packagesPath": "/Users/aterrell/.nuget/packages/",
-      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/obj/",
+      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aterrell/.config/NuGet/NuGet.Config"
@@ -1339,8 +1339,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj": {
-              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj"
+            "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj": {
+              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj"
             }
           }
         }

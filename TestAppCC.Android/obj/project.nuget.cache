@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XzsCSAUVTTRLTuVf86PQi22TPE2S9kcMw5JtLXWHxY/C0nTPa2CYCREsW7C1eXVpHqZUY8XWrsvR8iH5rzp6XQ==",
+  "dgSpecHash": "Voq9vXR4gR/EVrHhN+eyBNc0ZFrwCtZ+UDPda3pzFVo4O1exkHMYqR39ey8sQmM4I2g+5Te+X0W8zWIAD0Kj7A==",
   "success": true,
-  "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.Android/TestAppCC.Android.csproj",
+  "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.Android/TestAppCC.Android.csproj",
   "expectedPackageFiles": [
     "/Users/aterrell/.nuget/packages/dryioc.dll/4.7.7/dryioc.dll.4.7.7.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

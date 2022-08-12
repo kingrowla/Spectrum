@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZR6ss2dH7jOaTl/kxw5VibR6l6/EjJV6yFlo+LmNtDQF/JYN2ytiD+8P7b1PZ5TgQxHKY1arywr3QMrO8seoSg==",
+  "dgSpecHash": "BfS9yQyEe0CNup89BdfbvHmqAMwiFyecqHY+e72aYDmBtA4o+CQ1KRL6CEu0VP5q6gqVYEvyjoD/iaicxcLe8A==",
   "success": true,
-  "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
+  "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/aterrell/.nuget/packages/dryioc.dll/4.7.7/dryioc.dll.4.7.7.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

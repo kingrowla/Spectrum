@@ -30,10 +30,12 @@ namespace TestAppCC.ViewModels.Employees
         {
             _dialogService = dialogService;
 
-            Title = "Orders";
+            Title = "Employees";
             _navigationService = navigationService;
             EmployeeSelectedComamnd = new DelegateCommand<Employee>(ShowEmployeeDetail);
 
+            //await _devicePermissionService.CheckAndRequestCameraPermissionAsync(async () =>
+            //        await _popupService.PushAsync(_scanner));
             Prepare();
         }
 
@@ -72,6 +74,7 @@ namespace TestAppCC.ViewModels.Employees
         private async void Prepare()
         {
             Employees = await GetAllEmployees();
+            Console.Write(Employees);
         }
     }
 }

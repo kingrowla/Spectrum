@@ -2342,11 +2342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
+      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
       "projectName": "TestAppCC.iOS",
-      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
+      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
       "packagesPath": "/Users/aterrell/.nuget/packages/",
-      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/obj/",
+      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2362,8 +2362,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj": {
-              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj"
+            "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj": {
+              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj"
             }
           }
         }

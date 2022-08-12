@@ -6,6 +6,7 @@
        xmlns:effects="clr-namespace:TestAppCC.Effects"
        x:Name="CustomEntryControl"
        Padding="0"
+       BorderColor="Gray"
        x:DataType="Frame"
        HasShadow="False">
     <Grid Padding="0"

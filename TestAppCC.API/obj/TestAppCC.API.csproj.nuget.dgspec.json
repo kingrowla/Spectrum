@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj": {}
+    "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj": {}
   },
   "projects": {
-    "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj": {
+    "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj",
+        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj",
         "projectName": "TestAppCC.API",
-        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj",
+        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj",
         "packagesPath": "/Users/aterrell/.nuget/packages/",
-        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/obj/",
+        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aterrell/.config/NuGet/NuGet.Config"

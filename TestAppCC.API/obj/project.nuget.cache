@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H7gVJQc1bjPR3hiSymTLx/8wq1FacUyZd6lDUpgQ9Yb8fl8g/DDY96KnVy2YdswJWXER3H9qUVyJvKddaFf7uA==",
+  "dgSpecHash": "LTP3PIbfW+SHUqQj7C4aVltfDkN4I/Ykl6L9Wf1DhsZclEzew1i7jNaX1DLTNgFiKIYie1+GtJ+6SjDZ6hBZgQ==",
   "success": true,
-  "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj",
+  "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj",
   "expectedPackageFiles": [
     "/Users/aterrell/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",

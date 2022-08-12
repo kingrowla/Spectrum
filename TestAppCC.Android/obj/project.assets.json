@@ -3881,11 +3881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.Android/TestAppCC.Android.csproj",
+      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.Android/TestAppCC.Android.csproj",
       "projectName": "TestAppCC.Android",
-      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.Android/TestAppCC.Android.csproj",
+      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.Android/TestAppCC.Android.csproj",
       "packagesPath": "/Users/aterrell/.nuget/packages/",
-      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.Android/obj/",
+      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3901,8 +3901,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj": {
-              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj"
+            "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj": {
+              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj"
             }
           }
         }
