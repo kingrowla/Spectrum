@@ -37,6 +37,13 @@
             <Setter Property="BarTextColor" Value="Black"   />
 
         </Style>
+             <!--  Label  -->
+            <Style x:Key="LabelBase" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource DarkGray}" />
+            </Style>
+
+            <!--  default  -->
+            <Style BasedOn="{StaticResource LabelBase}" TargetType="Label" />
             
             <!--  Converters  -->
             <converters:PendingStatusColorConverter x:Key="PendingStatusColorConverter" />

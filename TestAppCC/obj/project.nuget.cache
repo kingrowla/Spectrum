@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZgXZTO/d4HcMUPFaet2Av8I+Kog+qfBdpUVnZQUhMDaj2zMo5uGRbXr/3HCraANIqLVNKVtTM7ONMBdJXHBhug==",
+  "dgSpecHash": "s2YguVmhKkuNQoC6wZ3tNHUoSdm+hR+6HT6Ly+MIMRE9wum/bmPyxlyVUpGEQNYLsPmKxwkx0uJ8LZYd56yiwg==",
   "success": true,
   "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj",
   "expectedPackageFiles": [
     "/Users/aterrell/.nuget/packages/dryioc.dll/4.7.7/dryioc.dll.4.7.7.nupkg.sha512",
+    "/Users/aterrell/.nuget/packages/fody/6.6.3/fody.6.6.3.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
@@ -12,6 +13,7 @@
     "/Users/aterrell/.nuget/packages/prism.core/8.1.97/prism.core.8.1.97.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/prism.dryioc.forms/8.1.97/prism.dryioc.forms.8.1.97.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/prism.forms/8.1.97/prism.forms.8.1.97.nupkg.sha512",
+    "/Users/aterrell/.nuget/packages/propertychanged.fody/3.4.1/propertychanged.fody.3.4.1.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/refit/6.3.2/refit.6.3.2.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

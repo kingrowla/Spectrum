@@ -18,3 +18,5 @@
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.csproj.CoreCompileInputs.cache
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.dll
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.pdb
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.csproj.Fody.CopyLocal.cache
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.csproj.Fody.RuntimeCopyLocal.cache

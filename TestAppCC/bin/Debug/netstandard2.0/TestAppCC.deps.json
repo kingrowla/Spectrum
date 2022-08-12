@@ -9,9 +9,11 @@
     ".NETStandard,Version=v2.0/": {
       "TestAppCC/1.0.0": {
         "dependencies": {
+          "Fody": "6.6.3",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
           "Prism.DryIoc.Forms": "8.1.97",
+          "PropertyChanged.Fody": "3.4.1",
           "TestAppCC.API": "1.0.0",
           "Xamarin.CommunityToolkit": "2.0.4",
           "Xamarin.Essentials": "1.7.3",
@@ -32,6 +34,7 @@
           }
         }
       },
+      "Fody/6.6.3": {},
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "dependencies": {
           "System.Threading.Tasks.Extensions": "4.5.4"
@@ -87,6 +90,11 @@
             "assemblyVersion": "8.1.97.5141",
             "fileVersion": "8.1.97.5141"
           }
+        }
+      },
+      "PropertyChanged.Fody/3.4.1": {
+        "dependencies": {
+          "Fody": "6.6.3"
         }
       },
       "Refit/6.3.2": {
@@ -255,6 +263,7 @@
       "TestAppCC.API/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "PropertyChanged.Fody": "3.4.1",
           "Refit": "6.3.2"
         },
         "runtime": {
@@ -275,6 +284,13 @@
       "sha512": "sha512-GC2JdW0mN3wTcbcteP7LWwfU1eao0If/vMozCXSbcNZbHQD7kBjcKFO82g0OLssr7gGPWS4+vWpNZ1oOy54JKw==",
       "path": "dryioc.dll/4.7.7",
       "hashPath": "dryioc.dll.4.7.7.nupkg.sha512"
+    },
+    "Fody/6.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X1WKKgSNYVtLzdO8dK3YWmfmljA4L0soePcWNouq9X6WbVF4bmivuJdlhTZx/2L3ml6tMvhFe8skIbVQ24PAYA==",
+      "path": "fody/6.6.3",
+      "hashPath": "fody.6.6.3.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -324,6 +340,13 @@
       "sha512": "sha512-PZ11VwcKc1XNOhIAbdZXPwiRdG1QbxS3cV0JKdKJp914+LSGog71LbHg5hMY2C8AssfCe6wjG5wOvZaBV68nvw==",
       "path": "prism.forms/8.1.97",
       "hashPath": "prism.forms.8.1.97.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/3.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e0BVdf9bFdjvOMEcYff5jUdvMC36ioHN1Lp7bW1bz0Qjg3rqsfCUhaaIu+K7R9TKBGeX7PlfqAeMqKyrD9cBXw==",
+      "path": "propertychanged.fody/3.4.1",
+      "hashPath": "propertychanged.fody.3.4.1.nupkg.sha512"
     },
     "Refit/6.3.2": {
       "type": "package",

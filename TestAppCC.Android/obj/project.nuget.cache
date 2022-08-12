@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Voq9vXR4gR/EVrHhN+eyBNc0ZFrwCtZ+UDPda3pzFVo4O1exkHMYqR39ey8sQmM4I2g+5Te+X0W8zWIAD0Kj7A==",
+  "dgSpecHash": "PSQruJ4MS3Rnb2y0i3jw449JwU7dXnxGCrMvAiCuRZH7zTOkvhsJUxFHndDrYaXOjrOijN1PFMmp6yfiUkyAUg==",
   "success": true,
   "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.Android/TestAppCC.Android.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/aterrell/.nuget/packages/prism.core/8.1.97/prism.core.8.1.97.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/prism.dryioc.forms/8.1.97/prism.dryioc.forms.8.1.97.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/prism.forms/8.1.97/prism.forms.8.1.97.nupkg.sha512",
+    "/Users/aterrell/.nuget/packages/propertychanged.fody/3.4.1/propertychanged.fody.3.4.1.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/refit/6.3.2/refit.6.3.2.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

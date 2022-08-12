@@ -42,3 +42,5 @@
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.dll
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/ref/TestAppCC.dll
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.pdb
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.Fody.CopyLocal.cache
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.Fody.RuntimeCopyLocal.cache

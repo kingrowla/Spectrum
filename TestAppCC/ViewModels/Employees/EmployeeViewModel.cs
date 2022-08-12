@@ -22,7 +22,7 @@ namespace TestAppCC.ViewModels.Employees
         public bool IsBusy { get; set; }
         public ObservableCollection<Employee> Employees { get; set; }
         public Employee SelectedEmployee { get; set; }
-        public string Username { get; set; }
+        public string LoginName { get; set; }
         public List<Employee> EmployeeResponse { get; set; }
 
         public EmployeeViewModel(
@@ -58,7 +58,7 @@ namespace TestAppCC.ViewModels.Employees
         {
             if (parameters.ContainsKey("loginName"))
             {
-                var result = await Task.Run(() => Username = (string)parameters["loginName"]);
+                var result = await Task.Run(() => LoginName = (string)parameters["loginName"]);
             }
         }
         private void ShowEmployeeDetail(Employee employeeItem)

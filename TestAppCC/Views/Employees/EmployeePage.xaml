@@ -16,8 +16,8 @@
             Margin="0,25"
             FontSize="20"
             HorizontalOptions="Center"
-            Text="{Binding Username, StringFormat='Welcome {0}!'}"
-            TextColor="LightSlateGray"
+            Text="{Binding LoginName, StringFormat='Welcome {0}!'}"
+            TextColor="Black"
             VerticalOptions="Start" />
         <BoxView Grid.Column="1" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
         <CollectionView
@@ -27,7 +27,7 @@
             Margin="15,0"
             HorizontalOptions="FillAndExpand"
             ItemsSource="{Binding Employees}"
-            SelectionMode="Single" BackgroundColor="YellowGreen"
+            SelectionMode="Single"
             VerticalOptions="FillAndExpand">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
@@ -46,7 +46,7 @@
                         <Label
                             Grid.Row="1"
                             FontSize="Small"
-                            Text="{Binding Department}" />
+                            Text="{Binding Department}"/>
                         <Label
                             Grid.Row="2"
                             FontAttributes="Bold"
@@ -58,7 +58,7 @@
                             FontAttributes="Bold"
                             FontSize="Micro"
                             Text="{Binding IpAddress}"
-                            TextColor="Gray" />
+                             />
                         <BoxView
                             Grid.Row="3"
                             BackgroundColor="LightGray"

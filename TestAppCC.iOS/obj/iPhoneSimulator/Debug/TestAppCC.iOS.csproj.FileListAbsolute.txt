@@ -161,3 +161,4 @@
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/iPhoneSimulator/Debug/TestAppCC.iOS.exe
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/iPhoneSimulator/Debug/TestAppCC.iOS.pdb
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/iPhoneSimulator/Debug/optimized/spec.png
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/bin/iPhoneSimulator/Debug/PropertyChanged.dll

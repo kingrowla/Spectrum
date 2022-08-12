@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BfS9yQyEe0CNup89BdfbvHmqAMwiFyecqHY+e72aYDmBtA4o+CQ1KRL6CEu0VP5q6gqVYEvyjoD/iaicxcLe8A==",
+  "dgSpecHash": "IFqNqkio5/cSX6xtrU/cjo26kbnx92nQ3AW8W2uUUhM4odiGLJcWMKw06eij1nAwJ7T4v6hx1oixFuuQtWWoJg==",
   "success": true,
   "projectFilePath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/aterrell/.nuget/packages/prism.core/8.1.97/prism.core.8.1.97.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/prism.dryioc.forms/8.1.97/prism.dryioc.forms.8.1.97.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/prism.forms/8.1.97/prism.forms.8.1.97.nupkg.sha512",
+    "/Users/aterrell/.nuget/packages/propertychanged.fody/3.4.1/propertychanged.fody.3.4.1.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/refit/6.3.2/refit.6.3.2.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/aterrell/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

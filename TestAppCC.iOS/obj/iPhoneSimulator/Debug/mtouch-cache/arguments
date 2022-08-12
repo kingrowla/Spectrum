@@ -174,6 +174,7 @@
 	--reference=/Users/aterrell/.nuget/packages/prism.core/8.1.97/lib/netstandard2.0/Prism.dll \
 	--reference=/Users/aterrell/.nuget/packages/prism.dryioc.forms/8.1.97/lib/xamarinios10/Prism.DryIoc.Forms.dll \
 	--reference=/Users/aterrell/.nuget/packages/prism.forms/8.1.97/lib/netstandard2.0/Prism.Forms.dll \
+	--reference=/Users/aterrell/.nuget/packages/propertychanged.fody/3.4.1/lib/netstandard2.1/PropertyChanged.dll \
 	--reference=/Users/aterrell/.nuget/packages/refit/6.3.2/lib/netstandard2.1/Refit.dll \
 	--reference=/Users/aterrell/.nuget/packages/system.net.http.json/6.0.0/lib/netstandard2.0/System.Net.Http.Json.dll \
 	--reference=/Users/aterrell/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll \
