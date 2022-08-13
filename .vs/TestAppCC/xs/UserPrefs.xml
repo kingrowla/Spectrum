@@ -1,37 +1,45 @@
 ﻿<Properties StartupConfiguration="{811F6581-1BF3-4168-BB80-B3F6CB5967E3}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAppCC/Views/Employees/EmployeePage.xaml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TestAppCC.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAppCC/ViewModels/Employees/EmployeeViewModel.cs">
     <Files>
-      <File FileName="TestAppCC/App.xaml" Line="21" Column="43" />
+      <File FileName="TestAppCC/App.xaml" Line="43" Column="1" />
       <File FileName="TestAppCC.iOS/Main.cs" Line="17" Column="1" />
       <File FileName="TestAppCC/App.xaml.cs" Line="1" Column="1" />
       <File FileName="TestAppCC/Controls/CustomEntry.xaml" Line="9" Column="26" />
       <File FileName="TestAppCC/Views/Login/LoginView.xaml" Line="72" Column="64" />
-      <File FileName="TestAppCC/ViewModels/MainPageViewModel.cs" Line="29" Column="49" />
+      <File FileName="TestAppCC/ViewModels/MainPageViewModel.cs" Line="18" Column="32" />
       <File FileName="TestAppCC/Controls/CustomEntry.xaml.cs" Line="1" Column="1" />
       <File FileName="TestAppCC/Views/MainPage.xaml" Line="17" Column="28" />
-      <File FileName="TestAppCC/Views/Employees/EmployeePage.xaml" Line="29" Column="44" />
-      <File FileName="TestAppCC/ViewModels/Employees/EmployeeViewModel.cs" Line="23" Column="56" />
-      <File FileName="TestAppCC.API/Models/Employee.cs" Line="14" Column="28" />
+      <File FileName="TestAppCC/Views/Employees/EmployeePage.xaml" Line="23" Column="72" />
+      <File FileName="TestAppCC/ViewModels/Employees/EmployeeViewModel.cs" Line="37" Column="38" />
+      <File FileName="TestAppCC.API/Models/Employee.cs" Line="20" Column="41" />
       <File FileName="TestAppCC.API/Services/EmployeeService.cs" Line="1" Column="1" />
       <File FileName="TestAppCC.API/Services/IEmployeeService.cs" Line="1" Column="1" />
+      <File FileName="TestAppCC/ViewModels/Employees/EmployeeDetailViewModel.cs" Line="22" Column="30" />
+      <File FileName="TestAppCC/ViewModels/ViewModelBase.cs" Line="7" Column="116" />
+      <File FileName="TestAppCC/FodyWeavers.xml" Line="4" Column="11" />
+      <File FileName="TestAppCC/Views/Employees/EmployeePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TestAppCC/Views/Employees/EmployeeDetailPage.xaml" Line="16" Column="34" />
+      <File FileName="TestAppCC/Converters/PendingStatusColorConverter.cs" Line="15" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestAppCC" expanded="True">
             <Node name="TestAppCC" expanded="True">
-              <Node name="Controls" expanded="True">
-                <Node name="CustomEntry.xaml" expanded="True" />
-              </Node>
+              <Node name="Converters" expanded="True" />
               <Node name="ViewModels" expanded="True">
-                <Node name="Employees" expanded="True" />
+                <Node name="Employees" expanded="True">
+                  <Node name="EmployeeViewModel.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Employees" expanded="True" />
-                <Node name="Login" expanded="True" />
+                <Node name="Employees" expanded="True">
+                  <Node name="EmployeePage.xaml" expanded="True" />
+                </Node>
               </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="TestAppCC.Android" expanded="True">
               <Node name="Resources" expanded="True" />
@@ -49,14 +57,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.TestAppCC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.43FA651D-D248-4971-9C53-7A7406959F7D" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/ViewModels/Employees/EmployeeViewModel.cs" relfile="TestAppCC/ViewModels/Employees/EmployeeViewModel.cs" line="48" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.ItemProperties.TestAppCC.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
 </Properties>

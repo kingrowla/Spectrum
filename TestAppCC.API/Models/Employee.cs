@@ -1,26 +1,26 @@
 ﻿using System;
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace TestAppCC.API.Models
 {
     public class Employee
     {
-        [JsonProperty("id")]
+        [JsonPropertyName("id")]
         public string Id { get; set; }
 
-        [JsonProperty("first_name")]
+        [JsonPropertyName("first_name")]
         public string FirstName { get; set; }
 
-        [JsonProperty("last_name")]
+        [JsonPropertyName("last_name")]
         public string LastName { get; set; }
 
-        [JsonProperty("email")]
+        [JsonPropertyName("email")]
         public string Email { get; set; }
 
-        [JsonProperty("department")]
+        [JsonPropertyName("department")]
         public string Department { get; set; }
 
-        [JsonProperty("ip_address")]
+        [JsonPropertyName("ip_address")]
         public string IpAddress { get; set; }
     }
 }

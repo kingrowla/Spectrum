@@ -19,7 +19,7 @@ namespace TestAppCC.ViewModels.Employees
 
         public EmployeeDetailViewModel(INavigationService navigationService) : base(navigationService)
         {
-            Title = "Order Detail View";
+            Title = "Employee Detail View";
         }
 
         public async Task InitializeAsync(INavigationParameters parameters)

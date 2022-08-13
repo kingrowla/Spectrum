@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using Prism.Commands;
 using Prism.Navigation;
@@ -17,6 +18,7 @@ namespace TestAppCC.ViewModels.Employees
         private readonly IPageDialogService _dialogService;
 
         public DelegateCommand<string> NavigateCommand { get; set; }
+        public DelegateCommand FilterByNameCommand { get; set; }
         public DelegateCommand<Employee> EmployeeSelectedComamnd { get; private set; }
 
         public bool IsBusy { get; set; }
@@ -29,14 +31,18 @@ namespace TestAppCC.ViewModels.Employees
             INavigationService navigationService, IPageDialogService dialogService) : base(navigationService)
         {
             _dialogService = dialogService;
+            _navigationService = navigationService;
 
             Title = "Employees";
-            _navigationService = navigationService;
             EmployeeSelectedComamnd = new DelegateCommand<Employee>(ShowEmployeeDetail);
+            FilterByNameCommand = new DelegateCommand(FilterEmployee);
 
-            //await _devicePermissionService.CheckAndRequestCameraPermissionAsync(async () =>
-            //        await _popupService.PushAsync(_scanner));
             Prepare();
+        }
+
+        private void FilterEmployee()
+        {
+            Employees = new ObservableCollection<Employee>(Employees.OrderByDescending(e => e.LastName));
         }
 
         async Task<ObservableCollection<Employee>> GetAllEmployees()
@@ -74,7 +80,6 @@ namespace TestAppCC.ViewModels.Employees
         private async void Prepare()
         {
             Employees = await GetAllEmployees();
-            Console.Write(Employees);
         }
     }
 }

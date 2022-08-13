@@ -23,7 +23,7 @@ namespace TestAppCC.Converters
                     color = (Color)Application.Current.Resources[PendingColorKey];
                     break;
                 case "marketing" :
-                    color = (Color)Application.Current.Resources[DefaultColorKey];
+                    color = (Color)Application.Current.Resources[PendingColorKey];
                     break;
                 default:
                     color = (Color)Application.Current.Resources[DefaultColorKey];
