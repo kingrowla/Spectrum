@@ -1,6 +1,5 @@
 ﻿<Properties StartupConfiguration="{811F6581-1BF3-4168-BB80-B3F6CB5967E3}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.TestAppCC.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestAppCC/ViewModels/Employees/EmployeeViewModel.cs">
     <Files>
@@ -58,9 +57,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TestAppCC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.43FA651D-D248-4971-9C53-7A7406959F7D" />
+  <MonoDevelop.Ide.ItemProperties.TestAppCC.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AA49B2CE-46C1-4AB3-852B-0EDA87A121D0" />
 </Properties>
