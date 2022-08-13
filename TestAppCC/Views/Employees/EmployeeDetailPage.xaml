@@ -29,7 +29,7 @@
                 Grid.Row="2" Grid.Column="1"
                 FontAttributes="Bold"
                 FontSize="12"
-                Text="{Binding Department, StringFormat='{0} - Note: Pending status is highlighted with a converter.'}"
+                Text="{Binding Department, StringFormat='{0} - Note: Highlighted based on marketing or services.'}"
                 TextColor="{Binding Department, Converter={StaticResource PendingStatusColorConverter}}" />
             <Label
                 Grid.Row="3" Grid.Column="1"

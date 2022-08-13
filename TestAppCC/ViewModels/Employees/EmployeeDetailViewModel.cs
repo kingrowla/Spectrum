@@ -15,7 +15,7 @@ namespace TestAppCC.ViewModels.Employees
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Department { get; set; }
-        public string Address { get; set; }
+        public string IpAddress { get; set; }
 
         public EmployeeDetailViewModel(INavigationService navigationService) : base(navigationService)
         {
@@ -26,12 +26,11 @@ namespace TestAppCC.ViewModels.Employees
         {
             if (parameters.ContainsKey("employeeItem"))
             {
-                //Usually awaiting the service assignments here//
                 var result = await Task.Run(() => EmployeeItem = (Employee)parameters["employeeItem"]);
                 FirstName = result.FirstName;
                 LastName = result.LastName;
                 Department = result.Department;
-                Address = result.IpAddress;
+                IpAddress = result.IpAddress;
                 Email = result.Email;
             }
         }

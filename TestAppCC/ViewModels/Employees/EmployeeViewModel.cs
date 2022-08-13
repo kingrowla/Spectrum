@@ -27,8 +27,7 @@ namespace TestAppCC.ViewModels.Employees
         public string LoginName { get; set; }
         public List<Employee> EmployeeResponse { get; set; }
 
-        public EmployeeViewModel(
-            INavigationService navigationService, IPageDialogService dialogService) : base(navigationService)
+        public EmployeeViewModel(INavigationService navigationService, IPageDialogService dialogService) : base(navigationService)
         {
             _dialogService = dialogService;
             _navigationService = navigationService;
@@ -36,13 +35,11 @@ namespace TestAppCC.ViewModels.Employees
             Title = "Employees";
             EmployeeSelectedComamnd = new DelegateCommand<Employee>(ShowEmployeeDetail);
             FilterByNameCommand = new DelegateCommand(FilterEmployee);
-
-            Prepare();
         }
 
         private void FilterEmployee()
         {
-            Employees = new ObservableCollection<Employee>(Employees.OrderByDescending(e => e.LastName));
+            Employees = new ObservableCollection<Employee>(Employees.OrderBy(e => e.LastName));
         }
 
         async Task<ObservableCollection<Employee>> GetAllEmployees()
@@ -66,7 +63,9 @@ namespace TestAppCC.ViewModels.Employees
             {
                 var result = await Task.Run(() => LoginName = (string)parameters["loginName"]);
             }
+            Employees = await GetAllEmployees();
         }
+
         private void ShowEmployeeDetail(Employee employeeItem)
         {
             SelectedEmployee = employeeItem;
@@ -75,11 +74,6 @@ namespace TestAppCC.ViewModels.Employees
             IsBusy = true;
             _navigationService.NavigateAsync("EmployeeDetailPage", parameter);
             IsBusy = false;
-        }
-       
-        private async void Prepare()
-        {
-            Employees = await GetAllEmployees();
         }
     }
 }
