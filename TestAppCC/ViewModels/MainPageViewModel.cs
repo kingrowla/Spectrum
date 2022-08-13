@@ -11,15 +11,9 @@ namespace TestAppCC.ViewModels
         private readonly IPageDialogService _dialogService;
 
         public DelegateCommand<string> NavigateCommand { get; set; }
-        //public DelegateCommand ShowPasswordCommand { get; set; }
-
         public bool IsBusy { get; set; } 
-
         public string LoginName { get; set; }
-
         public string Password { get; set; }
-
-        public string ShowPasswordButtonText { get; set; }
         
         public MainPageViewModel(INavigationService navigationService, IPageDialogService dialogService) : base(navigationService)
         {
@@ -27,9 +21,7 @@ namespace TestAppCC.ViewModels
             _navigationService = navigationService;
 
             Title = "Charter Communications Demo";
-            ShowPasswordButtonText = "show";
             NavigateCommand = new DelegateCommand<string>(Navigate);
-            //ShowPasswordCommand = new DelegateCommand(TogglePassword);
         }
 
         async void Navigate(string name)
@@ -47,9 +39,5 @@ namespace TestAppCC.ViewModels
                 IsBusy = false;
             }
         }
-        //async void TogglePassword()
-        //{
-           
-        //}
     }
 }

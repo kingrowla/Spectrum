@@ -40,6 +40,7 @@
     <None Remove="Controls\" />
     <None Remove="Fody" />
     <None Remove="PropertyChanged.Fody" />
+    <None Remove="Behaviors\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
@@ -51,6 +52,7 @@
     <Folder Include="Converters\" />
     <Folder Include="Effects\" />
     <Folder Include="Controls\" />
+    <Folder Include="Behaviors\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TestAppCC.API\TestAppCC.API.csproj" />

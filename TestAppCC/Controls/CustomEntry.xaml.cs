@@ -40,7 +40,7 @@ namespace TestAppCC.Controls
             BindableProperty.Create(nameof(GlyphColor), typeof(Color), typeof(CustomEntry));
 
         public static readonly BindableProperty TextProperty = BindableProperty.Create(nameof(Text), typeof(string),
-            typeof(CustomEntry), string.Empty, BindingMode.TwoWay);
+            typeof(CustomEntry), string.Empty, BindingMode.TwoWay, propertyChanged: OnTextPropertyChanged);
 
         public static readonly BindableProperty KeyboardProperty = BindableProperty.Create(nameof(Keyboard),
             typeof(Keyboard), typeof(CustomEntry), Keyboard.Default, BindingMode.OneTime,
@@ -230,6 +230,13 @@ namespace TestAppCC.Controls
                     }
                 }
             }
+        }
+
+        public static void OnTextPropertyChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            if (((CustomEntry)bindable).Entry == null)
+                return;
+            ((CustomEntry)bindable).Entry.Text = (string)newValue;
         }
 
         static void OnIsPasswordPropertyChanged(BindableObject bindable, object oldValue, object newValue)

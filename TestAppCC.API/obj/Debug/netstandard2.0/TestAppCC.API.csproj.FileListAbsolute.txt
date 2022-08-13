@@ -11,12 +11,11 @@
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/bin/Debug/netstandard2.0/TestAppCC.API.deps.json
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/bin/Debug/netstandard2.0/TestAppCC.API.dll
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/bin/Debug/netstandard2.0/TestAppCC.API.pdb
-/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.csproj.AssemblyReference.cache
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.GeneratedMSBuildEditorConfig.editorconfig
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.AssemblyInfoInputs.cache
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.AssemblyInfo.cs
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.csproj.CoreCompileInputs.cache
-/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.dll
-/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.pdb
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.csproj.Fody.CopyLocal.cache
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.csproj.Fody.RuntimeCopyLocal.cache
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.dll
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/Debug/netstandard2.0/TestAppCC.API.pdb

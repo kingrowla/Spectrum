@@ -37,10 +37,10 @@
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.AssemblyInfoInputs.cache
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.AssemblyInfo.cs
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.CoreCompileInputs.cache
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.Fody.CopyLocal.cache
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.Fody.RuntimeCopyLocal.cache
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.CopyComplete
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.dll
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/ref/TestAppCC.dll
 /Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.pdb
-/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.Fody.CopyLocal.cache
-/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/Debug/netstandard2.0/TestAppCC.csproj.Fody.RuntimeCopyLocal.cache

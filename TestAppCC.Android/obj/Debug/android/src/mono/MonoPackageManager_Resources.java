@@ -11,6 +11,7 @@ public class MonoPackageManager_Resources {
 		"Prism.dll",
 		"Prism.DryIoc.Forms.dll",
 		"Prism.Forms.dll",
+		"PropertyChanged.dll",
 		"Refit.dll",
 		"System.Net.Http.Json.dll",
 		"System.Text.Encodings.Web.dll",

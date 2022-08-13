@@ -11,7 +11,7 @@
             HorizontalOptions="FillAndExpand"
             RowDefinitions="Auto,Auto,*"
             VerticalOptions="CenterAndExpand">
-        <Label
+            <Label
             Grid.Column="1"
             Margin="0,25"
             FontSize="20"
@@ -20,9 +20,9 @@
             Text="{Binding LoginName, StringFormat='Welcome {0}!'}"
             TextColor="Black"
             VerticalOptions="Start" />
-           <StackLayout Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalOptions="End" Margin="10">
-            <Label Text="Filters" VerticalOptions="Center" Margin="10,0"></Label>
-        <Button CornerRadius="20"
+            <StackLayout Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalOptions="End" Margin="10">
+                <Label Text="Filters" VerticalOptions="Center" Margin="10,0"></Label>
+                <Button CornerRadius="20"
                 HeightRequest="40"
                 WidthRequest="60"
                 Margin="10"
@@ -35,8 +35,8 @@
                 HorizontalOptions="End"
                 VerticalOptions="End"
                 FontAttributes="Bold"/>
-                </StackLayout>
-        <CollectionView
+            </StackLayout>
+            <CollectionView
             x:Name="EmployeeListCollectionView"
             Grid.Row="2"
             Grid.Column="1"
@@ -45,45 +45,45 @@
             ItemsSource="{Binding Employees}"
             SelectionMode="Single"
             VerticalOptions="FillAndExpand">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid 
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid 
                         ColumnDefinitions="*" Margin="15,0"
                         HorizontalOptions="Fill"
                         RowDefinitions="2*, Auto, Auto, Auto, 10">
-                        <Grid.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding Source={x:Reference EmployeeListCollectionView}, Path=BindingContext.EmployeeSelectedComamnd}" CommandParameter="{Binding}" />
-                        </Grid.GestureRecognizers>
-                        <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
-                            <Label Text="{Binding FirstName}" />
-                            <Label FontAttributes="Bold" Text="{Binding LastName}" />
-                        </StackLayout>
-                        <Label
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference EmployeeListCollectionView}, Path=BindingContext.EmployeeSelectedComamnd}" CommandParameter="{Binding}" />
+                            </Grid.GestureRecognizers>
+                            <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                                <Label Text="{Binding FirstName}" />
+                                <Label FontAttributes="Bold" Text="{Binding LastName}" />
+                            </StackLayout>
+                            <Label
                             Grid.Row="1"
                             FontSize="Small"
                             Text="{Binding Department}"/>
-                        <Label
+                            <Label
                             Grid.Row="2"
                             FontAttributes="Bold"
                             FontSize="Small"
                             Text="{Binding Email}"
                             TextColor="Gray" />
-                        <Label
+                            <Label
                             Grid.Row="3"
                             FontAttributes="Bold"
                             FontSize="Micro"
                             Text="{Binding IpAddress}"
                              />
-                        <BoxView
+                            <BoxView
                             Grid.Row="4"
                             BackgroundColor="#f2f2f2"
                             HeightRequest="1"
                             Margin="7,0"
                             VerticalOptions="End" />
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
     </StackLayout>
 </ContentPage>
