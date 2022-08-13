@@ -1,4 +1,4 @@
-/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/bin/iPhoneSimulator/Debug/TestAppCC.iOS.exe
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/bin/iPhoneSimulator/Debug/TestAppCC.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.12.0.2/lib/mono/Xamarin.iOS/mscorlib.dll
 /Users/aterrell/.nuget/packages/xamarin.forms/5.0.0.2515/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.12.0.2/lib/mono/Xamarin.iOS/Facades/netstandard.dll
@@ -25,13 +25,13 @@
 /Users/aterrell/.nuget/packages/prism.forms/8.1.97/lib/netstandard2.0/Prism.Forms.dll
 /Users/aterrell/.nuget/packages/prism.core/8.1.97/lib/netstandard2.0/Prism.dll
 /Users/aterrell/.nuget/packages/xamarin.communitytoolkit/2.0.4/lib/xamarinios10/Xamarin.CommunityToolkit.dll
-/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.dll
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.dll
 /Users/aterrell/.nuget/packages/xamarin.forms/5.0.0.2515/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/aterrell/.nuget/packages/prism.dryioc.forms/8.1.97/lib/xamarinios10/Prism.DryIoc.Forms.dll
 /Users/aterrell/.nuget/packages/dryioc.dll/4.7.7/lib/netstandard2.0/DryIoc.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.12.0.2/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.ILGeneration.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.12.0.2/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.Lightweight.dll
-/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.API.dll
+/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.API.dll
 /Users/aterrell/.nuget/packages/refit/6.3.2/lib/netstandard2.1/Refit.dll
 /Users/aterrell/.nuget/packages/system.text.json/6.0.1/lib/netstandard2.0/System.Text.Json.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.12.0.2/lib/mono/Xamarin.iOS/Facades/System.Memory.dll
@@ -42,4 +42,3 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.12.0.2/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Extensions.dll
 /Users/aterrell/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/aterrell/.nuget/packages/system.net.http.json/6.0.0/lib/netstandard2.0/System.Net.Http.Json.dll
-/Users/aterrell/.nuget/packages/newtonsoft.json/13.0.1/lib/netstandard2.0/Newtonsoft.Json.dll

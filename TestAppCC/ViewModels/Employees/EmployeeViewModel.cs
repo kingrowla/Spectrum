@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using Prism.Commands;
 using Prism.Navigation;
@@ -17,24 +18,28 @@ namespace TestAppCC.ViewModels.Employees
         private readonly IPageDialogService _dialogService;
 
         public DelegateCommand<string> NavigateCommand { get; set; }
+        public DelegateCommand FilterByNameCommand { get; set; }
         public DelegateCommand<Employee> EmployeeSelectedComamnd { get; private set; }
 
         public bool IsBusy { get; set; }
         public ObservableCollection<Employee> Employees { get; set; }
         public Employee SelectedEmployee { get; set; }
-        public string Username { get; set; }
+        public string LoginName { get; set; }
         public List<Employee> EmployeeResponse { get; set; }
 
-        public EmployeeViewModel(
-            INavigationService navigationService, IPageDialogService dialogService) : base(navigationService)
+        public EmployeeViewModel(INavigationService navigationService, IPageDialogService dialogService) : base(navigationService)
         {
             _dialogService = dialogService;
-
-            Title = "Orders";
             _navigationService = navigationService;
-            EmployeeSelectedComamnd = new DelegateCommand<Employee>(ShowEmployeeDetail);
 
-            Prepare();
+            Title = "Employees";
+            EmployeeSelectedComamnd = new DelegateCommand<Employee>(ShowEmployeeDetail);
+            FilterByNameCommand = new DelegateCommand(FilterEmployee);
+        }
+
+        private void FilterEmployee()
+        {
+            Employees = new ObservableCollection<Employee>(Employees.OrderBy(e => e.LastName));
         }
 
         async Task<ObservableCollection<Employee>> GetAllEmployees()
@@ -56,9 +61,11 @@ namespace TestAppCC.ViewModels.Employees
         {
             if (parameters.ContainsKey("loginName"))
             {
-                var result = await Task.Run(() => Username = (string)parameters["loginName"]);
+                var result = await Task.Run(() => LoginName = (string)parameters["loginName"]);
             }
+            Employees = await GetAllEmployees();
         }
+
         private void ShowEmployeeDetail(Employee employeeItem)
         {
             SelectedEmployee = employeeItem;
@@ -67,11 +74,6 @@ namespace TestAppCC.ViewModels.Employees
             IsBusy = true;
             _navigationService.NavigateAsync("EmployeeDetailPage", parameter);
             IsBusy = false;
-        }
-       
-        private async void Prepare()
-        {
-            Employees = await GetAllEmployees();
         }
     }
 }

@@ -70,6 +70,21 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Refit/6.3.2": {
         "type": "package",
         "dependencies": {
@@ -356,6 +371,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "Prism.DryIoc.Forms": "8.1.97",
+          "PropertyChanged.Fody": "3.4.1",
           "TestAppCC.API": "1.0.0",
           "Xamarin.CommunityToolkit": "2.0.4",
           "Xamarin.Essentials": "1.7.3",
@@ -373,6 +389,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "PropertyChanged.Fody": "3.4.1",
           "Refit": "6.3.2"
         },
         "compile": {
@@ -452,6 +469,21 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Refit/6.3.2": {
         "type": "package",
         "dependencies": {
@@ -738,6 +770,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "Prism.DryIoc.Forms": "8.1.97",
+          "PropertyChanged.Fody": "3.4.1",
           "TestAppCC.API": "1.0.0",
           "Xamarin.CommunityToolkit": "2.0.4",
           "Xamarin.Essentials": "1.7.3",
@@ -755,6 +788,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "PropertyChanged.Fody": "3.4.1",
           "Refit": "6.3.2"
         },
         "compile": {
@@ -834,6 +868,21 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Refit/6.3.2": {
         "type": "package",
         "dependencies": {
@@ -1120,6 +1169,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "Prism.DryIoc.Forms": "8.1.97",
+          "PropertyChanged.Fody": "3.4.1",
           "TestAppCC.API": "1.0.0",
           "Xamarin.CommunityToolkit": "2.0.4",
           "Xamarin.Essentials": "1.7.3",
@@ -1137,6 +1187,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "PropertyChanged.Fody": "3.4.1",
           "Refit": "6.3.2"
         },
         "compile": {
@@ -1216,6 +1267,21 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Refit/6.3.2": {
         "type": "package",
         "dependencies": {
@@ -1502,6 +1568,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "Prism.DryIoc.Forms": "8.1.97",
+          "PropertyChanged.Fody": "3.4.1",
           "TestAppCC.API": "1.0.0",
           "Xamarin.CommunityToolkit": "2.0.4",
           "Xamarin.Essentials": "1.7.3",
@@ -1519,6 +1586,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "PropertyChanged.Fody": "3.4.1",
           "Refit": "6.3.2"
         },
         "compile": {
@@ -1674,6 +1742,28 @@
         "prism.forms.8.1.97.nupkg.sha512",
         "prism.forms.nuspec",
         "readme.txt"
+      ]
+    },
+    "PropertyChanged.Fody/3.4.1": {
+      "sha512": "e0BVdf9bFdjvOMEcYff5jUdvMC36ioHN1Lp7bW1bz0Qjg3rqsfCUhaaIu+K7R9TKBGeX7PlfqAeMqKyrD9cBXw==",
+      "type": "package",
+      "path": "propertychanged.fody/3.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.3.4.1.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "Refit/6.3.2": {
@@ -2342,11 +2432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
+      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
       "projectName": "TestAppCC.iOS",
-      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
+      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
       "packagesPath": "/Users/aterrell/.nuget/packages/",
-      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/obj/",
+      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2362,8 +2452,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj": {
-              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj"
+            "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj": {
+              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj"
             }
           }
         }

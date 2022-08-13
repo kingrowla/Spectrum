@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj": {}
+    "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj": {}
   },
   "projects": {
-    "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj": {
+    "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj",
+        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj",
         "projectName": "TestAppCC.API",
-        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj",
+        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj",
         "packagesPath": "/Users/aterrell/.nuget/packages/",
-        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/obj/",
+        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aterrell/.config/NuGet/NuGet.Config"
@@ -40,6 +40,12 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.6.3, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -49,6 +55,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.4.1, )"
             },
             "Refit": {
               "target": "Package",
@@ -69,14 +79,14 @@
         }
       }
     },
-    "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj": {
+    "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
+        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
         "projectName": "TestAppCC.iOS",
-        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
+        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/TestAppCC.iOS.csproj",
         "packagesPath": "/Users/aterrell/.nuget/packages/",
-        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/obj/",
+        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -92,8 +102,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj": {
-                "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj"
+              "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj": {
+                "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj"
               }
             }
           }
@@ -133,14 +143,14 @@
         }
       }
     },
-    "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj": {
+    "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj",
+        "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj",
         "projectName": "TestAppCC",
-        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj",
+        "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj",
         "packagesPath": "/Users/aterrell/.nuget/packages/",
-        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/obj/",
+        "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aterrell/.config/NuGet/NuGet.Config"
@@ -157,8 +167,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj": {
-                "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj"
+              "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj": {
+                "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj"
               }
             }
           }
@@ -173,6 +183,12 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.6.3, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -186,6 +202,10 @@
             "Prism.DryIoc.Forms": {
               "target": "Package",
               "version": "[8.1.97, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.4.1, )"
             },
             "Xamarin.CommunityToolkit": {
               "target": "Package",

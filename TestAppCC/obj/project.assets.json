@@ -14,6 +14,12 @@
           "lib/netstandard2.0/DryIoc.dll": {}
         }
       },
+      "Fody/6.6.3": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -92,6 +98,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
         }
       },
       "Refit/6.3.2": {
@@ -283,6 +304,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
+          "PropertyChanged.Fody": "3.4.1",
           "Refit": "6.3.2"
         },
         "compile": {
@@ -324,6 +346,39 @@
         "lib/portable-net45+win8+wp8+wpa81/DryIoc.dll",
         "lib/portable-net45+win8+wp8+wpa81/DryIoc.xml",
         "readme.txt"
+      ]
+    },
+    "Fody/6.6.3": {
+      "sha512": "X1WKKgSNYVtLzdO8dK3YWmfmljA4L0soePcWNouq9X6WbVF4bmivuJdlhTZx/2L3ml6tMvhFe8skIbVQ24PAYA==",
+      "type": "package",
+      "path": "fody/6.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.6.3.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -582,6 +637,28 @@
         "prism.forms.8.1.97.nupkg.sha512",
         "prism.forms.nuspec",
         "readme.txt"
+      ]
+    },
+    "PropertyChanged.Fody/3.4.1": {
+      "sha512": "e0BVdf9bFdjvOMEcYff5jUdvMC36ioHN1Lp7bW1bz0Qjg3rqsfCUhaaIu+K7R9TKBGeX7PlfqAeMqKyrD9cBXw==",
+      "type": "package",
+      "path": "propertychanged.fody/3.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.3.4.1.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "Refit/6.3.2": {
@@ -1303,9 +1380,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Fody >= 6.6.3",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.1",
       "Prism.DryIoc.Forms >= 8.1.97",
+      "PropertyChanged.Fody >= 3.4.1",
       "TestAppCC.API >= 1.0.0",
       "Xamarin.CommunityToolkit >= 2.0.4",
       "Xamarin.Essentials >= 1.7.3",
@@ -1318,11 +1397,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj",
+      "projectUniqueName": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj",
       "projectName": "TestAppCC",
-      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/TestAppCC.csproj",
+      "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/TestAppCC.csproj",
       "packagesPath": "/Users/aterrell/.nuget/packages/",
-      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/obj/",
+      "outputPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aterrell/.config/NuGet/NuGet.Config"
@@ -1339,8 +1418,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj": {
-              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.API/TestAppCC.API.csproj"
+            "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj": {
+              "projectPath": "/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.API/TestAppCC.API.csproj"
             }
           }
         }
@@ -1355,6 +1434,12 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.6.3, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -1368,6 +1453,10 @@
           "Prism.DryIoc.Forms": {
             "target": "Package",
             "version": "[8.1.97, )"
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[3.4.1, )"
           },
           "Xamarin.CommunityToolkit": {
             "target": "Package",

@@ -150,4 +150,7 @@
   <ItemGroup>
     <Folder Include="Effects\" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spec.png" />
+  </ItemGroup>
 </Project>

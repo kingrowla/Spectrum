@@ -1,9 +1,10 @@
-﻿using Prism.Mvvm;
+﻿using System.ComponentModel;
+using Prism.Mvvm;
 using Prism.Navigation;
 
 namespace TestAppCC.ViewModels
 {
-    public class ViewModelBase : BindableBase, IInitialize, INavigationAware, IDestructible
+    public class ViewModelBase : BindableBase, IInitialize, INavigationAware, IDestructible, INotifyPropertyChanged
     {
         protected INavigationService NavigationService { get; private set; }
 

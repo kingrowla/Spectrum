@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:TestAppCC.Converters"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
     xmlns:prism="http://prismlibrary.com">
     <prism:PrismApplication.Resources>
         <ResourceDictionary>
@@ -16,7 +17,10 @@
             <Color x:Key="DarkBlack">#FF414140</Color>
             <Color x:Key="MainGray">#FF414141</Color>
             <Color x:Key="SecondaryLightGray">#FF373737</Color>
-            <Color x:Key="Background">#F8F8F8</Color>
+            <Color x:Key="SpectrumBlue">#0e3054</Color>
+            <Color x:Key="SpectrumBlueAlt">#4098d3</Color>
+            <Color x:Key="SpectrumBlueAlt2">#7fc9fa</Color>
+            <Color x:Key="Background">White</Color>
             <Color x:Key="Primary">#FF96BA57</Color>
             <Style x:Key="TotalStyle" TargetType="Label">
                 <Setter Property="FontAttributes" Value="Bold" />
@@ -24,27 +28,27 @@
             </Style>
             <Style x:Key="DefaultButtonStyle" TargetType="Button">
                 <Setter Property="WidthRequest" Value="270" />
-                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="HeightRequest" Value="60" />
+                <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="TextColor" Value="White" />
-                <Setter Property="BackgroundColor" Value="#042f66" />
+                <Setter Property="BackgroundColor" Value="{StaticResource SpectrumBlue}" />
             </Style>
-             <Style x:Key="H2"
-                   BasedOn="{StaticResource LabelBase}"
-                   TargetType="Label">
-                <Setter Property="FontSize" Value="14" />
-            </Style>
-            <Style x:Key="H2_Alt"
-                   BasedOn="{StaticResource LabelBase}"
-                   TargetType="Label">
-                <Setter Property="FontSize" Value="14" />
+            <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="White"/>
+            <Setter Property="BarTextColor" Value="Black"   />
+
+        </Style>
+               <!--Label-->  
+            <Style x:Key="LabelBase" TargetType="Label">
                 <Setter Property="TextColor" Value="{StaticResource DarkGray}" />
             </Style>
-            <Style x:Key="LabelBase" TargetType="Label">
-                <Setter Property="TextColor" Value="{StaticResource SecondaryLightGray}" />
-                <Setter Property="FontSize" Value="16" />
-            </Style>
-            <!--  Converters  -->
+
+              <!--default-->  
+            <Style BasedOn="{StaticResource LabelBase}" TargetType="Label" />
+            
+              <!--Converters-->  
             <converters:PendingStatusColorConverter x:Key="PendingStatusColorConverter" />
+            <xct:InvertedBoolConverter x:Key="InvertedBoolConverter" />
         </ResourceDictionary>
     </prism:PrismApplication.Resources>
 </prism:PrismApplication>

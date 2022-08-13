@@ -17,12 +17,16 @@ namespace TestAppCC.Views.Login {
     public partial class LoginView : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Label ShowHideButton;
+        private global::Xamarin.Forms.Image logoImage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::TestAppCC.Behaviors.PasswordValidatorBehavior passwordValidator;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginView));
-            ShowHideButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "ShowHideButton");
+            logoImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "logoImage");
+            passwordValidator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::TestAppCC.Behaviors.PasswordValidatorBehavior>(this, "passwordValidator");
         }
     }
 }

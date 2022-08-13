@@ -2,17 +2,17 @@
 --sgen-conc
 /target-framework:Xamarin.iOS,Version=v1.0
 --http-message-handler=NSUrlSessionHandler
---cache=/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
---root-assembly=/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/bin/iPhoneSimulator/Debug/TestAppCC.iOS.exe
+--cache=/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
+--root-assembly=/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/bin/iPhoneSimulator/Debug/TestAppCC.iOS.exe
 --sdkroot=/Applications/Xcode.app/Contents/Developer
 --targetver=8.0
---sim=/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/bin/iPhoneSimulator/Debug/TestAppCC.iOS.app
+--sim=/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/bin/iPhoneSimulator/Debug/TestAppCC.iOS.app
 --executable=TestAppCC.iOS
 --nolink
 --sdk=15.5
 --aot-options=-O=-float32
 --abi=x86_64
---symbollist=/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list
+--symbollist=/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list
 --dsym=no
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
@@ -24,7 +24,7 @@
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
---reference=/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.dll
+--reference=/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll
@@ -172,6 +172,7 @@
 --reference=/Users/aterrell/.nuget/packages/prism.core/8.1.97/lib/netstandard2.0/Prism.dll
 --reference=/Users/aterrell/.nuget/packages/prism.dryioc.forms/8.1.97/lib/xamarinios10/Prism.DryIoc.Forms.dll
 --reference=/Users/aterrell/.nuget/packages/prism.forms/8.1.97/lib/netstandard2.0/Prism.Forms.dll
+--reference=/Users/aterrell/.nuget/packages/propertychanged.fody/3.4.1/lib/netstandard2.1/PropertyChanged.dll
 --reference=/Users/aterrell/.nuget/packages/refit/6.3.2/lib/netstandard2.1/Refit.dll
 --reference=/Users/aterrell/.nuget/packages/system.net.http.json/6.0.0/lib/netstandard2.0/System.Net.Http.Json.dll
 --reference=/Users/aterrell/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll
@@ -217,5 +218,5 @@
 --reference=/Users/aterrell/.nuget/packages/xamarin.forms/5.0.0.2515/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 --reference=/Users/aterrell/.nuget/packages/xamarin.forms/5.0.0.2515/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 --reference=/Users/aterrell/.nuget/packages/xamarin.forms/5.0.0.2515/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
---reference=/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.dll
---reference=/Users/aterrell/Documents/dev/test/TestAppCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.API.dll
+--reference=/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.dll
+--reference=/Users/aterrell/Documents/dev/test/TestAppCC/TestCC/TestAppCC/bin/Debug/netstandard2.0/TestAppCC.API.dll
