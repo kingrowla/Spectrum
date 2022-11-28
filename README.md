@@ -1,4 +1,4 @@
-# Sample test for Spectrum
+# Spectrum
 
 Using Prism for MVVM binding, Refit for API with Postman Mock Server, Xamarin Toolkit, Fody.
 
